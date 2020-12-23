@@ -12,3 +12,6 @@ https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues
 
 5.Syncing a fork:
 https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/syncing-a-fork
+
+6.How to check if a local repo is up to date:
+https://stackoverflow.com/questions/7938723/git-how-to-check-if-a-local-repo-is-up-to-date
