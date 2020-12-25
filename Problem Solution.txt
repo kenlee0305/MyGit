@@ -18,3 +18,6 @@ https://stackoverflow.com/questions/7938723/git-how-to-check-if-a-local-repo-is-
 
 7.How to remove a submodule:
 https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule
+
+8.How to undo the most recent local commits in Git:
+https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git
