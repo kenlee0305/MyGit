@@ -14,6 +14,7 @@ git push -u <remote_name> <branch_name> ---------> Push the commit to the select
 git pull ---------> Pull the files from the remote repository
 git remote -v ---------> Check remote repository list
 git remote add <name> <remote_url> ---------> Add a remote repository with a name
+git remote set-url origin https://github.com/IceFox99/GitCommands.git ---------> Change a remote's URL
 touch <file> ---------> Create a file
 git branch ---------> Check all the branches
 git branch <name> ---------> Create a branch with a name
