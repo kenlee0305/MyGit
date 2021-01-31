@@ -14,14 +14,14 @@ git push -u <remote_name> <branch_name> ---------> Push the commit to the select
 git pull ---------> Pull the files from the remote repository
 git remote -v ---------> Check remote repository list
 git remote add <name> <remote_url> ---------> Add a remote repository with a name
-git remote set-url origin https://github.com/IceFox99/GitCommands.git ---------> Change a remote's URL
+git remote set-url <name> <remote_url> ---------> Change a remote's URL
 touch <file> ---------> Create a file
 git branch ---------> Check all the branches
 git branch <name> ---------> Create a branch with a name
 git checkout <name> ---------> Switch to that branch
 git branch -d <name> ---------> Delete a branch locally
 git push <remote_name> --delete <remote_branch_name> ---------> Delete branch remotely
-git merge <branch-name> ---------> Merge the selected branch to the default branch (main or master)
+git merge <branch-name> ---------> Merge the selected branch to the current branch
 git rm --cached <file_name> ---------> Remove file from the index instead of deleting the real file in the local system
 git rm -r --cached <folder_name> ---------> Remove folder from the index instead of deleting the real folder in the local system
 git submodule add <repository_url> <path_name> ---------> Add the given repository as a submodule at the giver path
