@@ -9,8 +9,7 @@ git add . ---------> Stages new files and modifications, without deletions
 git add -u ---------> Stages modifications and deletions, without new files
 git commit -m “message” ---------> Commit the changed files with annotation
 git push ---------> Push the commit to the default remote repository
-git push --set-upstream <remote_name> <branch_name> ---------> Push the commit to the selected remote repository
-git push -u <remote_name> <branch_name> ---------> Push the commit to the selected repository and set this remote and branch as default
+git push --set-upstream <remote_name> <branch_name> ---------> Push the commit to the selected repository and set this remote and branch as the unique upstream (you can use -u instead of --set-upstream)
 git pull ---------> Pull the files from the remote repository
 git remote -v ---------> Check remote repository list
 git remote add <name> <remote_url> ---------> Add a remote repository with a name
@@ -19,6 +18,7 @@ touch <file> ---------> Create a file
 git branch ---------> Check all the branches
 git branch <name> ---------> Create a branch with a name
 git checkout <name> ---------> Switch to that branch
+git branch --set-upstream-to <remote_name>/<remote_branch_name> ---------> Set the branch's upstream (you can use -u instead of --set-upstream-to)
 git branch -d <name> ---------> Delete a branch locally
 git push <remote_name> --delete <remote_branch_name> ---------> Delete branch remotely
 git merge <branch-name> ---------> Merge the selected branch to the current branch
