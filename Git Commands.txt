@@ -19,6 +19,7 @@ git branch ---------> Check all the branches
 git branch <name> ---------> Create a branch with a name
 git checkout <name> ---------> Switch to that branch
 git branch --set-upstream-to <remote_name>/<remote_branch_name> ---------> Set the branch's upstream (you can use -u instead of --set-upstream-to)
+git branch -vv ---------> Find out which remote branch a local branch is tracking
 git branch -d <name> ---------> Delete a branch locally
 git push <remote_name> --delete <remote_branch_name> ---------> Delete branch remotely
 git merge <branch-name> ---------> Merge the selected branch to the current branch
