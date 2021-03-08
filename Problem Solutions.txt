@@ -24,3 +24,6 @@ https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-c
 
 9.How to create a remote Git branch:
 https://stackoverflow.com/questions/1519006/how-do-you-create-a-remote-git-branch
+
+10.Basic writing and formatting syntax of README:
+https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
