@@ -30,3 +30,4 @@ git reset <file> ---------> Undo the specific file which you stage before commit
 git reset ---------> Undo all git add files
 git difftool --dir-diff ---------> Compare the difference between current files and last commit
 git difftool HEAD~ --dir-diff ---------> Compare the difference between HEAD~ and last commit
+git difftool <branch_1>..<branch_2> --dir-diff ---------> Compare two branches in git
