@@ -1,9 +1,7 @@
 # MyGit
-
 Some git commands and solutions which I personally think are useful.  
 
 ## Git Commands
-
 | Command | Description |
 | :---: | :---: |
 | `git init` \<repo_name\> | Initialize a local repository |
