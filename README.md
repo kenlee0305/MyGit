@@ -5,7 +5,7 @@ Some git commands and solutions which I personally think are useful.
 ## Git Commands
 
 | Command | Description |
-| --- | --- |
+| :---: | :---: |
 | `git init` \<repo_name\> | Initialize a local repository |
 | `git init -b` <branch_name> | Initialize the local directory as a Git repository with a branch name |
 | `git clone` <repo_url> | Clone a repository in GitHub |
