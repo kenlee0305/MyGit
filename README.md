@@ -32,6 +32,7 @@ Some git commands and solutions which I personally think are useful.
 | `git rm --cached` \<file_name\> | Remove file from the index instead of deleting the real file in the local system |
 | `git rm -r --cached` \<folder_name\> | Remove folder from the index instead of deleting the real folder in the local system |
 | `git submodule add` \<repo_url\> \<path_name\> | Add the given repository as a submodule at the giver path |
+| `git submodule update --init --recursive` | Update submodules recursively |
 | `git reset` \<file_name\> | Undo the specific file which you stage before commit |
 | `git reset` | Undo all git add files |
 | `git difftool --dir-diff` | Show unstaged changes (don't show new files) |
