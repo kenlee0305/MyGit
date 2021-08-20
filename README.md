@@ -16,6 +16,8 @@ Some git commands and solutions which I personally think are useful.
 | `git commit -m` “message” | Commit the changed files with annotation |
 | `git push` | Push the commit to the default remote repository |
 | `git push --set-upstream` \<remote_name\> \<branch_name\> | Push the commit to the selected repository and set this remote and branch as the unique upstream (you can use -u instead of --set-upstream) |
+| `git fetch` | Fetch the files from the remote repository to our remote-tracking branches rather than our local repository |
+| `git merge` | Incorporates changes from the named commits (since the time their histories diverged from the current branch) into the current branch |
 | `git pull` | Pull the files from the remote repository |
 | `git remote -v` | Check remote repository list |
 | `git remote add` \<remote_name\> \<repo_url\> | Add a remote repository with a name |
@@ -53,3 +55,4 @@ Some git commands and solutions which I personally think are useful.
 - [Basic writing and formatting syntax of README](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
 - [How do I check out a remote Git branch](https://stackoverflow.com/questions/1783405/how-do-i-check-out-a-remote-git-branch)
 - [Writing on GitHub](https://docs.github.com/en/github/writing-on-github)
+- [Support for password authentication was removed. Please use a personal access token instead](https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to)
